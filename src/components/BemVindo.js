@@ -11,7 +11,6 @@ class BemVindo extends Component{
       return(
         <View style={styles.container} >
           <Text>{'Olá Seja Bem-Vindo!'}</Text>
-          <Text>{'BLA BLA BLA BLA BLA' }{this.props.nomeNome}</Text>
         </View>
       )
     }

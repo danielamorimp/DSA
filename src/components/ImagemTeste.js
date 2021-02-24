@@ -17,11 +17,6 @@ class ImagemTeste extends Component{
             style = {{width: this.props.largura, height: this.props.altura}}
           />
           <Text>{this.props.nomeNome}</Text>
-          <Button
-            title = "Entrar"
-            color = "black"
-            onPress = {""}
-          />
         </View>
       )
     }
